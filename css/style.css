@@ -1,0 +1,127 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  /* font-family:"Fraunces", sans-serif; */
+  /* font-family: 'Monsieur La Doulaise', cursive; */
+  font-family: 'Dancing Script', cursive;
+  font-weight:400;
+  line-height:1.8em;
+  color:#2a9d8f;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-text {
+  font-size: 4.5rem;
+  color:#2a9d8f;
+}
+
+.venue {
+  top:25%;
+  font-size: 3.5rem;
+  color:#2a9d8f;
+  text-align:center;
+
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.90;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../img/header-image.jpg');
+  /* background: #b7b7a4; */
+  min-height:100%;
+}
+
+.layer {
+  top:50%;
+}
+
+.venue-detail {
+  top: 25%;
+  color: #1d3557;
+}
+
+.pimg2{
+  background-image:url('../img/wed-img-2.jpg');
+  min-height:100%;
+}
+
+.pimg3{
+  background-image:url('../img/image3.jpg');
+  min-height:100%;
+}
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+  font-size: 24px;
+}
+
+.section-light{
+  background-color:#fae1dd;
+}
+
+.section-dark{
+  background-color:#2a9d8f;
+  color:#fae1dd;
+}
+
+.ptext{
+  position:absolute;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+@media(max-width:568px){
+  .pimg1 {
+    background-image:url('../img/header-image-2.jpg');
+  }
+  .pimg1, .pimg2, .pimg3{
+    /* background-attachment:scroll; */
+    width:100%;
+  }
+  .header-text {
+    font-size:1.5rem;
+  }
+  .section{
+    font-size:1.0rem;
+  }
+  .gmap {
+    position: relative;
+    overflow: hidden;
+    width: 100%
+  }
+  .responsive-iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
