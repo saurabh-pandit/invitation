@@ -40,7 +40,7 @@ a {
 }
 
 .pimg1{
-  background-image:url('../img/wed-image.jpg');
+  background-image:url('./img/wed-image.jpg');
   min-height:100%;
 }
 
@@ -90,7 +90,7 @@ a {
 
 @media(max-width:568px){
   .pimg1 {
-    background-image:url('../img/wed-image-2.jpg');
+    background-image:url('./img/wed-image-1.jpg');
   }
   .pimg1, .pimg2, .pimg3{
     /* background-attachment:scroll; */
