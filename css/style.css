@@ -40,7 +40,7 @@ a {
 }
 
 .pimg1{
-  background-image:url('../img/header-image.jpg');
+  background-image:url('./img/header-image.jpg');
   /* background: #b7b7a4; */
   min-height:100%;
 }
@@ -55,12 +55,12 @@ a {
 }
 
 .pimg2{
-  background-image:url('../img/wed-img-2.jpg');
+  background-image:url('./img/wed-img-2.jpg');
   min-height:100%;
 }
 
 .pimg3{
-  background-image:url('../img/image3.jpg');
+  background-image:url('./img/image3.jpg');
   min-height:100%;
 }
 
@@ -101,7 +101,7 @@ a {
 
 @media(max-width:568px){
   .pimg1 {
-    background-image:url('../img/header-image-2.jpg');
+    background-image:url('./img/header-image-2.jpg');
   }
   .pimg1, .pimg2, .pimg3{
     /* background-attachment:scroll; */
