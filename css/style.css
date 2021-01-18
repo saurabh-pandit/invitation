@@ -6,6 +6,30 @@ body, html{
   font-weight:400;
   line-height:1.8em;
   color:#2a9d8f;
+  scroll-behavior: smooth;
+}
+
+.scroll-btn {
+  margin-bottom: 25px;
+  position:absolute;
+  width:100%;
+  text-align:center;
+  color:#000;
+  top: 90%;
+}
+
+.scroll-btn p {
+  margin: 0px;
+}
+
+.fa-angle-down {
+  color: white;
+}
+
+.scroll-btn a {
+  color: #fff;
+  font-size:1.8rem;
+  font-weight:900;
 }
 
 a {
@@ -42,6 +66,9 @@ a {
 .pimg1{
   background-image:url('../img/wed-image.jpg');
   min-height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .layer {
@@ -87,10 +114,17 @@ a {
 .ptext .border.trans{
   background-color:transparent;
 }
+.note {
+  margin-top: 50px;
+  font-size:18px;
+}
 
 @media(max-width:568px){
   .pimg1 {
     background-image:url('../img/wed-image-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .pimg1, .pimg2, .pimg3{
     /* background-attachment:scroll; */
@@ -98,6 +132,7 @@ a {
   }
   .header-text {
     font-size:1.5rem;
+    font-weight:900;
   }
   .section{
     font-size:1.0rem;
