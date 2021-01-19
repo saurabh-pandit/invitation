@@ -55,11 +55,6 @@ a {
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
   background-attachment:fixed;
 }
 
@@ -121,13 +116,13 @@ a {
 
 @media(max-width:568px){
   .pimg1 {
+    background-attachment: scroll;
     background-image:url('../img/wed-image-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .pimg1, .pimg2, .pimg3{
-    /* background-attachment:scroll; */
     width:100%;
   }
   .header-text {
